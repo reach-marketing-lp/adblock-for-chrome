@@ -1,15 +1,15 @@
 {
   "extName": {
     "message": "Adblock for Chrome™",
-    "description": "Best ad blocker for Chrome."
+    "description": "extension name."
   },
   "extShortDesc": {
     "message": "Finally, an efficient blocker. Easy on CPU and memory.",
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "ABC — Dashboard",
-    "description": "English: ABC — Dashboard"
+    "message": "Adblock for Chrome™ — Dashboard",
+    "description": "English: Adblock for Chrome™ — Dashboard"
   },
   "dashboardUnsavedWarning": {
     "message": "Warning! You have unsaved changes",
@@ -124,15 +124,15 @@
     "description": "Tooltip used for the logger icon in the panel"
   },
   "popupTipNoPopups": {
-    "message": "Toggle the blocking of all popups for this site",
+    "message": "Toggle the blocking of all pop-ups for this site",
     "description": "Tooltip for the no-popups per-site switch"
   },
   "popupTipNoPopups1": {
-    "message": "Click to block all popups on this site",
+    "message": "Click to block all pop-ups on this site",
     "description": "Tooltip for the no-popups per-site switch"
   },
   "popupTipNoPopups2": {
-    "message": "Click to no longer block all popups on this site",
+    "message": "Click to no longer block all pop-ups on this site",
     "description": "Tooltip for the no-popups per-site switch"
   },
   "popupTipNoLargeMedia": {
@@ -316,7 +316,7 @@
     "description": "English: Make use of context menu where appropriate"
   },
   "settingsColorBlindPrompt": {
-    "message": "Color-blind friendly",
+    "message": "Colour-blind friendly",
     "description": "English: Color-blind friendly"
   },
   "settingsCloudStorageEnabledPrompt": {
@@ -324,7 +324,7 @@
     "description": ""
   },
   "settingsAdvancedUserPrompt": {
-    "message": "I am an advanced user.",
+    "message": "I am an advanced user (<a href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>required reading</a>)",
     "description": ""
   },
   "settingsAdvancedUserSettings": {
@@ -344,11 +344,11 @@
     "description": "English: "
   },
   "settingPerSiteSwitchGroup": {
-    "message": "Default behavior",
+    "message": "Default behaviour",
     "description": ""
   },
   "settingPerSiteSwitchGroupSynopsis": {
-    "message": "These default behaviors can be overridden on a per-site basis",
+    "message": "These default behaviours can be overridden on a per-site basis",
     "description": ""
   },
   "settingsNoCosmeticFilteringPrompt": {
@@ -366,6 +366,14 @@
   "settingsNoScriptingPrompt": {
     "message": "Disable JavaScript",
     "description": "The default state for the per-site no-scripting switch"
+  },
+  "settingsNoCSPReportsPrompt": {
+    "message": "Block CSP reports",
+    "description": "background information: https://github.com/gorhill/uBlock/issues/3150"
+  },
+  "settingsUncloakCnamePrompt": {
+    "message": "Uncloak canonical names",
+    "description": "background information: https://github.com/uBlockOrigin/uBlock-issues/issues/1513"
   },
   "settingsLastRestorePrompt": {
     "message": "Last restore:",
@@ -400,7 +408,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "Cosmetic filters serve to hide elements in a web page which are deemed to be a visual nuisance, and which can't be blocked by the network request-based filtering engines.",
+    "message": "Cosmetic filters serve to hide elements in a web page which are deemed to be a visual nuisance, and which cannot be blocked by the network request-based filtering engines.",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -421,7 +429,7 @@
   },
   "3pGroupDefault": {
     "message": "Built-in",
-    "description": "Header for the Adblock for Chrome™ filters section in 'Filter lists pane'"
+    "description": "Header for the uBlock filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Ads",
@@ -440,7 +448,7 @@
     "description": "The header identifying the filter lists in the category 'annoyances'"
   },
   "3pGroupMultipurpose": {
-    "message": "Multipurpose",
+    "message": "Multi-purpose",
     "description": "English: Multipurpose"
   },
   "3pGroupRegions": {
@@ -492,8 +500,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "my-Adblock for Chrome™-static-filters_{{datetime}}.txt",
-    "description": "English: my-Adblock for Chrome™-static-filters_{{datetime}}.txt"
+    "message": "my-ublock-static-filters_{{datetime}}.txt",
+    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Apply changes",
@@ -536,7 +544,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "my-Adblock for Chrome™-dynamic-rules_{{datetime}}.txt",
+    "message": "my-ublock-dynamic-rules_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -544,7 +552,7 @@
     "description": "English: List of your dynamic filtering rules."
   },
   "rulesFormatHint": {
-    "message": "Rule syntax: <code>source destination type action</code> (<a href='https://github.com/gorhill/Adblock for Chrome™/wiki/Dynamic-filtering:-rule-syntax'>full documentation</a>).",
+    "message": "Rule syntax: <code>source destination type action</code> (<a href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>full documentation</a>).",
     "description": "English: dynamic rule syntax and full documentation."
   },
   "rulesSort": {
@@ -564,7 +572,7 @@
     "description": "English: a sort option for list of rules."
   },
   "whitelistPrompt": {
-    "message": "The trusted site directives dictate on which web pages Adblock for Chrome™ Origin should be disabled. One entry per line. Invalid directives will be silently ignored and commented out.",
+    "message": "The trusted site directives dictate on which web pages Adblock for Chrome™ should be disabled. One entry per line. Invalid directives will be silently ignored and commented out.",
     "description": "The name of the trusted sites pane."
   },
   "whitelistImport": {
@@ -576,7 +584,7 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "my-Adblock for Chrome™-trusted-sites_{{datetime}}.txt",
+    "message": "my-ublock-trusted-sites_{{datetime}}.txt",
     "description": "The default filename to use for import/export purpose"
   },
   "whitelistApply": {
@@ -620,11 +628,11 @@
     "description": "Tooltip for the DOM inspector button in the logger page"
   },
   "loggerPopupPanelTip": {
-    "message": "Toggle the popup panel",
+    "message": "Toggle the pop-up panel",
     "description": "Tooltip for the popup panel button in the logger page"
   },
   "loggerInfoTip": {
-    "message": "Adblock for Chrome™ Origin wiki: The logger",
+    "message": "Adblock for Chrome™ wiki: The logger",
     "description": "Tooltip for the top-right info label in the logger page"
   },
   "loggerClearTip": {
@@ -776,7 +784,7 @@
     "description": "Message to show when a filter cannot be found in any filter lists"
   },
   "loggerSettingDiscardPrompt": {
-    "message": "Logger entries which do not fulfill all three conditions below will be automatically discarded:",
+    "message": "Logger entries which do not fulfil all three conditions below will be automatically discarded:",
     "description": "Logger setting: A sentence to describe the purpose of the settings below"
   },
   "loggerSettingPerEntryMaxAge": {
@@ -876,8 +884,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "my-Adblock for Chrome™-backup_{{datetime}}.txt",
-    "description": "English: my-Adblock for Chrome™-backup_{{datetime}}.txt"
+    "message": "my-ublock-backup_{{datetime}}.txt",
+    "description": "English: my-ublock-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Restore from file...",
@@ -948,7 +956,7 @@
     "description": "Firefox-specific: appears as 'Adblock for Chrome™ (off)'"
   },
   "docblockedPrompt1": {
-    "message": "Adblock for Chrome™ Origin has prevented the following page from loading:",
+    "message": "Adblock for Chrome™ has prevented the following page from loading:",
     "description": "Used in the strict-blocking page"
   },
   "docblockedPrompt2": {
@@ -1023,7 +1031,7 @@
     "message": "bytes",
     "description": ""
   },
-  "contextMenAdblock for Chrome™ElementInFrame": {
+  "contextMenuBlockElementInFrame": {
     "message": "Block element in frame...",
     "description": "An entry in the browser's contextual menu"
   },
